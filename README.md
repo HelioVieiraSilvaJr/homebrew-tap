@@ -5,10 +5,12 @@ Receita do [Homebrew](https://brew.sh) para instalar e atualizar o [InfiniTypes]
 ## Instalar
 
 ```bash
-brew install --cask heliovieirasilvajr/tap/infinitypes
+brew tap heliovieirasilvajr/tap
+brew trust heliovieirasilvajr/tap
+brew install --cask infinitypes
 ```
 
-Requer macOS 26 num Mac com chip Apple.
+O `brew trust` é pedido pelo Homebrew para qualquer tap que não seja oficial. Requer macOS 26 num Mac com chip Apple.
 
 O app ainda não é notarizado pela Apple, então o macOS bloqueia a primeira abertura de cada versão. Vá em **Ajustes → Privacidade e Segurança** e clique em **Abrir Mesmo Assim**. Na primeira vez, permita também o **Microfone** e a **Acessibilidade** e cole a sua chave da API da Anthropic nas Preferências.
 
