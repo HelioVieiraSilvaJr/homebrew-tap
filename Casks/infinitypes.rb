@@ -1,6 +1,6 @@
 cask "infinitypes" do
-  version "0.1.0"
-  sha256 "044312992ab5fc284951d9a1cfa7f65fb9b78a0557b3e1a4f0117df6b34e70b1"
+  version "0.1.1"
+  sha256 "e9adf9dd6eb75079eab4d2c9b9b531e9b3a3eb3643c79d285ad87d82cec4c5c8"
 
   url "https://github.com/HelioVieiraSilvaJr/InfiniTypes/releases/download/v#{version}/InfiniTypes-macos-#{version}.dmg"
   name "InfiniTypes"
